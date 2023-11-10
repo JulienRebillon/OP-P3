@@ -90,10 +90,12 @@ header {
     min-height: 123px;
     text-align: center;
     .header__container {
+        position:relative;
         height: 70px;
         align-items: center;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 15px;
         .header__arrowback {
+            position:absolute;
             height: 40px;
             width: 40px;
             display: block;
@@ -107,7 +109,8 @@ header {
             width: 40%;
             max-width: 300px;
             text-align: center;
-            margin-right: 30%;
+            margin-right: auto;
+            margin-left: auto;
             @media (min-width: 1024px) {
                 margin-right: 40%;
             }
