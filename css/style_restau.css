@@ -191,7 +191,7 @@ main {
 
 .la_carte__titre h1 {
     font-family: 'Shrikhand';
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bolder;
     font-style: italic;
 }
@@ -289,6 +289,7 @@ main {
 
 .menu__plat--detail h3 {
     margin-top: 15px;
+    font-size: 18px;
     margin-bottom: 1px;
     white-space: nowrap;
     overflow: hidden;
@@ -296,7 +297,7 @@ main {
 }
 
 .menu__plat--detail p {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 8px;
     margin-bottom: 0px;
     white-space: nowrap;
@@ -305,16 +306,16 @@ main {
 }
 
 .menu__plat--prix {
-    width: 90px;
+    width: 60px;
 }
 
 .menu__plat--prix p {
     margin-top: 48px;
     margin-bottom: 1px;
     font-weight: bold;
-    font-size: 24px;
-    padding-left: 25px;
-    min-width: 80px;
+    font-size: 20px;
+    padding-left: 10px;
+    min-width: 70px;
 }
 
 .check__container {
@@ -526,10 +527,28 @@ footer a {
 
     .la_carte__titre h1 {
         margin-right: 80px;
+        font-size: 36px;
     }
 
-    .container__like { /* Important override le 5% en low-res*/
-        right: 25% !important;
+    .la_carte__titre .container__like {
+        right: 25%;
+    }
+
+    .menu__plat--detail h3 {
+        font-size: 24px;
+    }
+
+    .menu__plat--detail p {
+        font-size: 20px;
+
+    .menu__plat--prix p {       
+        font-size: 24px;
+        padding-left: 25px;
+        min-width: 80px;
+    }
+
+    .menu__plat--prix {
+        width: 80px;
     }
 
 }
