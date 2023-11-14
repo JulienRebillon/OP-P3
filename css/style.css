@@ -278,7 +278,7 @@ h1 {
     margin-bottom: 60px;
 }
 
-.fonctionnement a {
+.fonctionnement .etape {
     display: block;
     margin-bottom: 30px;
     width: 90%;
@@ -518,7 +518,7 @@ footer a {
         display:flex;
     }
 
-    .fonctionnement a {
+    .fonctionnement .etape {
         max-width: 430px;
         margin-left: 2%;
         margin-right: 2%;
