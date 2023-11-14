@@ -416,7 +416,7 @@ main {
 
 /** BOUTON COMMANDER **/
 
-.section__commander {
+.bouton__commander {
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -425,7 +425,7 @@ main {
     padding-bottom: 50px;
 }
 
-.section__commander a {
+.bouton__commander a {
     display: block;
     color: white;
     font-size: 16px;
@@ -436,11 +436,12 @@ main {
     transition: opacity 0.3s;
 }
 
-.section__commander a:hover {
+.bouton__commander a:hover {
     opacity: 0.85; /** Animation bouton **/
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 10px 15px;
 }
 
-.section__commander a span {
+.bouton__commander a span {
     display: block;
     margin-top: 15px;
 }

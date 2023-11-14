@@ -263,8 +263,10 @@ h1 {
     transition: opacity 0.3s;
 }
 
+
 .concept a:hover {
     opacity: 0.85; /** Animation bouton **/
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 10px 15px;
 }
 
 .concept a span {
