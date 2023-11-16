@@ -309,7 +309,7 @@ h1 {
 }
 
 .container-nav p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     max-width: 70%;
 }
@@ -530,6 +530,10 @@ footer a {
         font-size: 18px;
         min-width: 220px;
         margin-left: 45px;
+    }
+
+    .container-nav p {
+        font-size: 20px;
     }
 
     /** RESTAURANTS **/
