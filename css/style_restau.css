@@ -244,10 +244,10 @@ main {
 
 /** LES RUBRIQUES **/
 
-.menu__rubriques {
+h2 {
     display: block;
     font-weight: 100;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
